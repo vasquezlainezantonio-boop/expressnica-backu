@@ -1,1 +1,36 @@
+:root {
+  --primary: #00B5E2;
+  --primary-dark: #0033a0;
+  --secondary: #ffffff;
+  --bg: #f0f2f5;
+  --text: #2d3436;
+}
+body {
+  font-family: sans-serif;
+  margin: 0;
+  background-color: var(--bg);
+  color: var(--text);
+  padding-bottom: 80px;
+}
+.app-header {
+  background: var(--primary-dark);
+  padding: 15px;
+  color: white;
+}
+.banner-card {
+  height: 150px;
+  background-size: cover;
+  border-radius: 8px;
+  margin: 10px;
+  display: flex;
+  align-items: flex-end;
+  color: white;
+  padding: 15px;
+}
+.dev-credit {
+  text-align: center;
+  padding: 20px;
+  font-size: 0.8rem;
+  background: #ddd;
+}
 
