@@ -1,1 +1,37 @@
-
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+    <title>ExpressNica App</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="icon" href="data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 100 100%22><text y=%22.9em%22 font-size=%2290%22>🇳🇮</text></svg>">
+</head>
+<body>
+<div class="app-container">
+    <header class="app-header" id="main-header">
+        <div class="location-bar" id="location-selector">
+            📍 Enviar a: <strong>Chinandega, Nicaragua ▾</strong>
+        </div>
+        <div class="search-bar">
+            <span>🔍</span>
+            <input type="text" placeholder="¿Qué se te antoja hoy?">
+        </div>
+    </header>
+    <main id="main-content">
+        <section id="home-view" class="view-section active">
+            <div class="banner-container">
+                <div class="banner-card" style="background-image: url('https://images.unsplash.com/photo-1504674900247-0877df9cc836?auto=format&fit=crop&q=80&w=500');">
+                    <div class="banner-content">
+                        <h3>Comida Nica 🥘</h3>
+                        <small>Sabor Chinandegano</small>
+                    </div>
+                </div>
+            </div>
+            <div class="dev-credit">Desarrollado por Yader Antonio Vasquez</div>
+        </section>
+    </main>
+</div>
+<script src="script.js"></script>
+</body>
+</html>
